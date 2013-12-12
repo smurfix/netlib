@@ -1,0 +1,21 @@
+Source: python-netlib
+Section: python
+Priority: optional
+Maintainer: Sebastien Delafond <seb@debian.org>
+Build-Depends: python-all-dev (>= 2.6.6-3~), cdbs (>= 0.4.90~), debhelper (>= 6)
+Standards-Version: 3.9.4
+Vcs-Git: git://anonscm.debian.org/collab-maint/python-netlib.git
+Vcs-Browser: http://anonscm.debian.org/git/collab-maint/python-netlib.git
+
+Package: python-netlib
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, python-pyasn1, python-openssl
+Provides: ${python:Provides}
+Description: collection of network utility classes
+ Netlib is a collection of network utility classes, used by the pathod
+ and mitmproxy projects. It differs from other projects in some
+ fundamental respects, because both pathod and mitmproxy often need to
+ violate standards.  This means that protocols are implemented as
+ small, well-contained and flexible functions, and are designed to allow
+ misbehaviour when needed.
+ .
