@@ -1,0 +1,6 @@
+/files
+/python-module-stampdir/
+/*.debhelper
+/*.log
+/*.substvars
+/python-netlib/
