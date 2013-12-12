@@ -8,7 +8,7 @@ Vcs-Git: git://anonscm.debian.org/collab-maint/python-netlib.git
 Vcs-Browser: http://anonscm.debian.org/git/collab-maint/python-netlib.git
 
 Package: python-netlib
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, python-pyasn1, python-openssl
 Provides: ${python:Provides}
 Description: collection of network utility classes
