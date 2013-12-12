@@ -1,3 +1,9 @@
+python-netlib (0.9.2+git-2) UNRELEASED; urgency=low
+
+  * Rebuild for arch:all.
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Thu, 12 Dec 2013 06:37:21 +0100
+
 python-netlib (0.9.2+git-1) smurf; urgency=low
 
   * New Upstream
